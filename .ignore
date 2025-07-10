@@ -1,0 +1,28 @@
+# Python bytecode and virtual environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Instance folder (for configuration, databases, etc.)
+instance/
+
+# Flask-related generated files
+.flaskenv
+
+# Test-related files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution and build files
+dist/
+build/
+*.egg-info/
+
+# Editor-specific files (examples)
+.idea/
+.vscode/
+*.swp
+*~
+
